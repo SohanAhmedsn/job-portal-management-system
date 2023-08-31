@@ -14,6 +14,8 @@
     <style>
         body {
             padding-top: 70px;
+            background-color: #DCDCDC;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
         }
 
         .main {
@@ -97,8 +99,8 @@
     <main class="container-fluid main">
         @RenderBody()
     </main>
-    <footer class="container-fluid">
-        &copy; @DateTime.Today.Year
+    <footer class="container-fluid text-center">
+        One Touch Limited &copy;@DateTime.Today.Year
     </footer>
     @await RenderSectionAsync("scripts", false)
 </body>
