@@ -74,3 +74,8 @@ namespace JobPortal.Models
         }
     }
 }
+//Add-Migration InitialCreate -Context JobPortalDbContext -OutputDir Migrations\SqlServerMigrations
+//Update-Database -Context JobPortalDbContext
+
+//Add-Migration InitialCreate -Context AppDbContext -OutputDir Migrations\SqliteMigrations
+//Update-Database -Context AppDbContext
